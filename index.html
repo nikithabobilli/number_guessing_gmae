@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Guessing Game 🎲</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>Guess The Number 🎯</h1>
+    <p>Pick a number between <b>1</b> and <b>100</b>.</p>
+
+    <input type="number" id="userGuess" placeholder="Your guess here">
+    <br>
+    <button class="btn guess-btn" onclick="checkGuess()">Guess</button>
+    <button class="btn reset-btn" onclick="resetGame()">Reset</button>
+    <button class="btn leaderboard-btn" onclick="showLeaderboard()">🏆 Leaderboard</button>
+
+    <div class="result" id="resultMessage"></div>
+    <div class="attempts" id="attemptCount"></div>
+
+    <div class="leaderboard" id="leaderboardContainer" style="display:none;">
+      <h3>🏅 Leaderboard (Least Attempts)</h3>
+      <ol id="leaderboardList"></ol>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

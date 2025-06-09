@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #e3ffe7, #d9e7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .game-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 95%;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #555;
+  }
+  
+  input[type="number"] {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    width: 70%;
+    margin-bottom: 20px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #4e9af1;
+    box-shadow: 0 0 8px #4e9af1;
+  }
+  
+  .btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+  }
+  
+  .btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.2);
+  }
+  
+  .guess-btn {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  }
+  
+  .reset-btn {
+    background: linear-gradient(135deg, #42e695, #3bb2b8);
+  }
+  
+  .leaderboard-btn {
+    background: linear-gradient(135deg, #ffb347, #ffcc33);
+  }
+  
+  .result {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .attempts {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .leaderboard {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .leaderboard h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard ol {
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  .leaderboard li {
+    margin-bottom: 5px;
+  }
+  
